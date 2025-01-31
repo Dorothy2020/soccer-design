@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;  /* Standard text color */
+}
+
+/* Navigation */
+header {
+    background: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;  /* Dark grey text */
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;  /* White text on hover */
+    background: #4F9A69;  /* Fern Green on hover */
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('jj.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #4F9A69;  /* Fern Green */
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #ff6600;  /* Orange color for action button */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.hero .btn:hover {
+    background: #e65c00;
+}
+
+/* Featured Matches */
+.featured-matches {
+    background: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.featured-matches h2 {
+    color: #333;
+}
+
+.match {
+    background: #ff6600;
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.match h3 {
+    margin-bottom: 10px;
+}
+
+.match p {
+    font-size: 16px;
+}
+
+/* Top Teams */
+.top-teams {
+    background: #eee;
+    padding: 30px;
+    text-align: center;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #4F9A69;  /* Fern Green border for teams */
+}
+
+.team p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Recent News */
+.recent-news {
+    background: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.recent-news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-news ul li {
+    margin: 10px 0;
+}
+
+.recent-news ul li a {
+    text-decoration: none;
+    color: #4F9A69;  /* Fern Green for links */
+    font-size: 18px;
+}
+
+.recent-news ul li a:hover {
+    text-decoration: underline;
+    color: #ff6600;  /* Change color to orange on hover */
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ff6600;  /* Orange color for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #4F9A69;  /* Change to Fern Green on hover */
+}
