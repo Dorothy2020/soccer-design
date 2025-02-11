@@ -39,8 +39,8 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
-    color: white;
+    background: url('ulizup.jpeg') no-repeat center center/cover;
+    color: black;
     text-align: center;
     padding: 100px 20px;
     background-color: #4F9A69;  /* Fern Green */
